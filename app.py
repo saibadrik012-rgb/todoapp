@@ -1,5 +1,6 @@
 import streamlit as st
 import psycopg2
+from streamlit_calendar import calendar
 
 # Access the connection string from secrets
 def get_db_connection():
